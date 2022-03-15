@@ -9,6 +9,7 @@ environment:
 
 dependencies:
   ninja: ^3.0.7
+  ninja_hex: ^2.0.1
 
 dev_dependencies:
   lints: ^1.0.0
