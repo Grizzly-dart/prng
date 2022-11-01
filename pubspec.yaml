@@ -1,16 +1,19 @@
 name: grizzly_prng
-description: A starting point for Dart libraries or applications.
+description: Pseudo Random Number Generator.
 version: 1.0.0
-# homepage: https://www.example.com
 
 environment:
   sdk: '>=2.15.0 <3.0.0'
 
-
 dependencies:
-  ninja: ^3.0.7
+  ninja: ^3.0.8
   ninja_hex: ^2.0.1
+  ninja_prime:
+
+dependency_overrides:
+  ninja_prime:
+    path: ../prime
 
 dev_dependencies:
-  lints: ^1.0.0
-  test: ^1.16.0
+  lints: ^2.0.1
+  test: ^1.21.7
